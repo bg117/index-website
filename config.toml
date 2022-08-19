@@ -7,15 +7,12 @@ enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [author]
-name = "Lynx"
-headline = "A simple links theme for Hugo built with Tailwind CSS"
-image = "author.jpg"
+name = "bg117"
+headline = "Index of www.bg117.xyz"
 links = [
-    { link = { href = "https://github.com/jpanther/lynx/blob/stable/README.md", text = "View the readme", icon = "github" } },
-    { link = { href = "styles/", text = "All the link styles", target = "_self" } },
-    { github = "https://github.com/jpanther/lynx" },
-    { twitter = "https://twitter.com/jpanther" },
-    { font-awesome = { href = "https://fontawesome.com/", text = "FontAwesome" } },
+    { link = { href = "/home", text = "Home", target = "_self" } },
+    { link = { href = "/projects", text = "Projects", target = "_self" } },
+    { link = { href = "https://api.bg117.xyz/", text = "API", target = "_self" } },
 ]
 
 [markup.highlight]
