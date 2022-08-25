@@ -1,6 +1,6 @@
 baseURL = "https://www.bg117.xyz/home/"
 languageCode = "en-us"
-title = "Website Index"
+title = "Lynx"                          # 'cause links, get it?
 theme = "lynx"
 
 enableEmoji = true
@@ -8,11 +8,16 @@ disableKinds = ["taxonomy", "term"]
 
 [author]
 name = "bg117"
-headline = "Index of www.bg117.xyz"
+headline = "My links"
 links = [
-    { link = { href = "/home", text = "Home", target = "_self" } },
-    { link = { href = "/projects", text = "Projects", target = "_self" } },
-    { link = { href = "https://api.bg117.xyz/", text = "API", target = "_self" } },
+    { link = { text = "Home", href = "/home" } },
+    { link = { text = "Projects", href = "/projects" } },
+    { github = "https://github.com/bg117" },
+    { stack-overflow = { text = "Stack Overflow", href = "https://stackoverflow.com/users/14858708/bg117" } },
+    { reddit = "https://reddit.com/u/Sorry-Chair" },
+    { youtube = "https://www.youtube.com/channel/UCPnD_7cC4obyh9DltdFuYrQ" },
+    { discord = { text = "bg117#6969" } },
+    { email = { text = "me@bg117.xyz", href = "mailto:me@bg117.xyz" } },
 ]
 
 [markup.highlight]
