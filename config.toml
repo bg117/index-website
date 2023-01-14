@@ -10,14 +10,14 @@ disableKinds = ["taxonomy", "term"]
 name = "bg117"
 headline = "My links"
 links = [
-    { link = { text = "Home", href = "/home" } },
+    { link = { text = "Home", href = "https://sooosilly.xyz" } },
     { link = { text = "Projects", href = "/projects" } },
     { github = "https://github.com/bg117" },
     { stack-overflow = { text = "Stack Overflow", href = "https://stackoverflow.com/users/14858708/bg117" } },
     { reddit = "https://reddit.com/u/Sorry-Chair" },
-    { youtube = "https://www.youtube.com/channel/UCPnD_7cC4obyh9DltdFuYrQ" },
+    { youtube = "https://www.youtube.com/@iuse4rchbtw" },
     { discord = { text = "bg117#6969" } },
-    { email = { text = "me@bg117.xyz", href = "mailto:me@bg117.xyz" } },
+    { email = { text = "bg117@sooosilly.xyz", href = "mailto:bg117@sooosilly.xyz" } },
 ]
 
 [markup.highlight]
